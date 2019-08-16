@@ -35,11 +35,12 @@ pipeline {
 
     }
     post { 
-        always {
+        success {
                     sh 'echo ArchiveArtifact'
                     archiveArtifacts artifacts: 'Artifact.zip'
-                    sh 'deleteDir()'
-                    sh 'echo deleted workspace'
+        }
+        always{
+            echo 'Finished!'
         }
     }
 }
