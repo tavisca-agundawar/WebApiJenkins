@@ -44,3 +44,4 @@ pipeline {
             sh 'echo deleted workspace'
         }
     }
+}
