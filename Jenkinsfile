@@ -2,12 +2,6 @@ pipeline {
     agent any
     stages {
 
-        stage('Delete old Workspace'){
-            steps{
-                sh 'deleteDir()'
-                sh 'echo deleted workspace'
-            }
-        }
         stage('Build') {
             steps {
                 sh 'echo Build'
@@ -44,6 +38,8 @@ pipeline {
         always {
                     sh 'echo ArchiveArtifact'
                     archiveArtifacts artifacts: 'Artifact.Zip'
+                    sh 'deleteDir()'
+                    sh 'echo deleted workspace'
         }
     }
 }
