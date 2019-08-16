@@ -1,35 +1,45 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('Build') {
             steps {
+                sh 'echo Build'
                 sh 'dotnet build WebAPI.sln -p:Configuration=Release -v:q'
             
             }
         }
 
-        stage('test') {
+        stage('Test') {
             steps {
-                sh 'echo test'
+                sh 'echo Test'
                 sh 'dotnet test XUnitTestProject1/XUnitTestProject1.csproj -p:Configiration=Release -v:q'
             }
         }
 
         stage('Publish') {
             steps {
-                sh 'echo test'
+                sh 'echo Publish'
                 sh 'dotnet publish WebAPI.sln -p:Configuration=Release -v:q -o Publish'
             }
         }
 
-         stage('deploy') {
+        stage('Zip') {
             steps {
-                sh 'dotnet WebAPI/Publish/WebAPI.dll'
+                sh 'echo Zipping Artifact'
+                sh 'zip -r Artifact.zip WebAPI/Publish/'
             }
         }
+
+        stage('ArchiveArtifact') {
+            steps {
+                sh 'echo ArchiveArtifact'
+                archiveArtifacts artifacts: 'WebAPI/Artifact.Zip'
+            }
+        }
+
     }
     post { 
-        always { 
+        always {
             sh 'deleteDir()'
             sh 'echo deleted workspace'
         }
