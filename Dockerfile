@@ -1,10 +1,9 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
-
-WORKDIR /home_dir
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2
+WORKDIR /Api
 
 COPY  . ./
 
 
 RUN dotnet publish WebAPI.sln -c Release -o Publish
 
-ENTRYPOINT [ "dotnet", "/home_dir/WebAPI/Publish/WebAPI.dll" ]
+ENTRYPOINT [ "dotnet", "/Api/WebAPI/Publish/WebAPI.dll" ]
