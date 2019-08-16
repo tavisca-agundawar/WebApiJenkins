@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arupade\\source\\repos\\WebAPI\\XUnitTestProject1\\XUnitTestProject1.csproj": {}
+    "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\XUnitTestProject1\\XUnitTestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arupade\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arupade\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\arupade\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\arupade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arupade\\source\\repos\\WebAPI\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\agundawar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\arupade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\agundawar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,20 +67,20 @@
         }
       }
     },
-    "C:\\Users\\arupade\\source\\repos\\WebAPI\\XUnitTestProject1\\XUnitTestProject1.csproj": {
+    "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\XUnitTestProject1\\XUnitTestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arupade\\source\\repos\\WebAPI\\XUnitTestProject1\\XUnitTestProject1.csproj",
+        "projectUniqueName": "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\XUnitTestProject1\\XUnitTestProject1.csproj",
         "projectName": "XUnitTestProject1",
-        "projectPath": "C:\\Users\\arupade\\source\\repos\\WebAPI\\XUnitTestProject1\\XUnitTestProject1.csproj",
-        "packagesPath": "C:\\Users\\arupade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arupade\\source\\repos\\WebAPI\\XUnitTestProject1\\obj\\",
+        "projectPath": "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\XUnitTestProject1\\XUnitTestProject1.csproj",
+        "packagesPath": "C:\\Users\\agundawar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\XUnitTestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\arupade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\agundawar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,8 +93,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\arupade\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj": {
-                "projectPath": "C:\\Users\\arupade\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj"
+              "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\WebAPI\\WebAPI.csproj": {
+                "projectPath": "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\WebAPI\\WebAPI.csproj"
               }
             }
           }

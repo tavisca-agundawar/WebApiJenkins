@@ -6841,23 +6841,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\arupade\\.nuget\\packages\\": {},
+    "C:\\Users\\agundawar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arupade\\source\\repos\\WebAPI\\XUnitTestProject1\\XUnitTestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\XUnitTestProject1\\XUnitTestProject1.csproj",
       "projectName": "XUnitTestProject1",
-      "projectPath": "C:\\Users\\arupade\\source\\repos\\WebAPI\\XUnitTestProject1\\XUnitTestProject1.csproj",
-      "packagesPath": "C:\\Users\\arupade\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arupade\\source\\repos\\WebAPI\\XUnitTestProject1\\obj\\",
+      "projectPath": "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\XUnitTestProject1\\XUnitTestProject1.csproj",
+      "packagesPath": "C:\\Users\\agundawar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\XUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\arupade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\agundawar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6870,8 +6870,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\arupade\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj": {
-              "projectPath": "C:\\Users\\arupade\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj"
+            "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\WebAPI\\WebAPI.csproj": {
+              "projectPath": "C:\\Users\\agundawar\\Downloads\\BasicWebAPI-master\\WebAPI\\WebAPI.csproj"
             }
           }
         }
