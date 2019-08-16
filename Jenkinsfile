@@ -37,7 +37,7 @@ pipeline {
     post { 
         always {
                     sh 'echo ArchiveArtifact'
-                    archiveArtifacts artifacts: 'Artifact.Zip'
+                    archiveArtifacts artifacts: 'Artifact.zip'
                     sh 'deleteDir()'
                     sh 'echo deleted workspace'
         }
