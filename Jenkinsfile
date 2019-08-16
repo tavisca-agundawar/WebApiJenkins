@@ -42,13 +42,8 @@ pipeline {
     }
     post { 
         always {
-                stage('ArchiveArtifact') {
-                steps {
                     sh 'echo ArchiveArtifact'
                     archiveArtifacts artifacts: 'Artifact.Zip'
-                }
-            }
-            
         }
     }
 }
