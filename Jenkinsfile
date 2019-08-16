@@ -33,7 +33,7 @@ pipeline {
         stage('ArchiveArtifact') {
             steps {
                 sh 'echo ArchiveArtifact'
-                archiveArtifacts artifacts: 'WebAPI/Artifact.Zip'
+                archiveArtifacts artifacts: 'Artifact.Zip'
             }
         }
 
@@ -44,4 +44,3 @@ pipeline {
             sh 'echo deleted workspace'
         }
     }
-}
