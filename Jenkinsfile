@@ -4,30 +4,30 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'echo Build'
-                sh 'dotnet build WebAPI.sln -p:Configuration=Release -v:q'
+                bat 'echo Build'
+                bat 'dotnet build WebAPI.sln -p:Configuration=Release -v:q'
             
             }
         }
 
         stage('Test') {
             steps {
-                sh 'echo Test'
-                sh 'dotnet test XUnitTestProject1/XUnitTestProject1.csproj -p:Configiration=Release -v:q'
+                bat 'echo Test'
+                bat 'dotnet test XUnitTestProject1/XUnitTestProject1.csproj -p:Configiration=Release -v:q'
             }
         }
 
         stage('Publish') {
             steps {
-                sh 'echo Publish'
-                sh 'dotnet publish WebAPI.sln -p:Configuration=Release -v:q -o Publish'
+                bat 'echo Publish'
+                bat 'dotnet publish WebAPI.sln -p:Configuration=Release -v:q -o Publish'
             }
         }
 
         stage('Zip') {
             steps {
-                sh 'echo Zipping Artifact'
-                sh 'zip -r Artifact.zip WebAPI/Publish/'
+                bat 'echo Zipping Artifact'
+                bat 'zip -r Artifact.zip WebAPI/Publish/'
             }
         }
 
@@ -36,7 +36,7 @@ pipeline {
     }
     post { 
         success {
-                    sh 'echo ArchiveArtifact'
+                    bat 'echo ArchiveArtifact'
                     archiveArtifacts artifacts: 'Artifact.zip'
         }
         always{
