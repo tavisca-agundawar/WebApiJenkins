@@ -27,7 +27,7 @@ pipeline {
         stage('Zip') {
             steps {
                 bat 'echo Zipping Artifact'
-                bat 'zip -r Artifact.zip WebAPI/Publish/'
+                bat 'jar -cMf Artifact.zip WebAPI/Publish/'
             }
         }
 
