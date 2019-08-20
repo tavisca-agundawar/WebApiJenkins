@@ -26,7 +26,7 @@ pipeline {
 
         stage('Sonarqube analysis'){
             steps {
-                powershell 'dotnet ${env:SONAR_MS_TOOL} begin /k:"demo" /d:sonar.host.url="${env:SONAR_URL}" /d:sonar.login="${env:SONAR_TOKEN}"'
+                powershell 'dotnet ${env:SONAR_MS_TOOL} begin /k:"${env:SolutionName}" /d:sonar.host.url="${env:SONAR_URL}" /d:sonar.login="${env:SONAR_TOKEN}"'
                 powershell 'dotnet build'
                 powershell 'dotnet ${env:SONAR_MS_TOOL} end /d:sonar.login="${env:SONAR_TOKEN}"'
             }
