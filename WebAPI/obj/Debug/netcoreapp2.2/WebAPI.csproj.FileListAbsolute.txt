@@ -12,3 +12,17 @@ C:\Users\arupade\source\repos\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.Assem
 C:\Users\arupade\source\repos\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Users\arupade\source\repos\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
 C:\Users\arupade\source\repos\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.deps.json
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.json
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.dll
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
+C:\Users\agundawar\Downloads\BasicWebAPI-master\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
